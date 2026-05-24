@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.Serialization;
 
 [Serializable]
+/// Small data class for the weapon damage value.
 public class DamageStat
 {
     [FormerlySerializedAs("minDamage")]

@@ -2,6 +2,7 @@ using UnityEditor;
 using UnityEngine;
 
 [CustomPropertyDrawer(typeof(DamageStat))]
+/// Draws the damage field with a bit of validation UI.
 public class DamageStatDrawer : PropertyDrawer
 {
     private const float Padding = 6f;

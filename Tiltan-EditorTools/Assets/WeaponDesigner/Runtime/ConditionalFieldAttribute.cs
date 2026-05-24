@@ -1,5 +1,6 @@
 using UnityEngine;
 
+/// Lets a field show only when another bool says it should.
 public class ConditionalFieldAttribute : PropertyAttribute
 {
     public readonly string conditionFieldName;

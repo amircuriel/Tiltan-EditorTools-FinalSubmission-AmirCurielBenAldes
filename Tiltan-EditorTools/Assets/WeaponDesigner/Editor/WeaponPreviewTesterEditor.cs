@@ -2,6 +2,7 @@ using UnityEditor;
 using UnityEngine;
 
 [CustomEditor(typeof(WeaponPreviewTester))]
+/// This draws the preview tester inspector in a nicer way.
 public class WeaponPreviewTesterEditor : Editor
 {
     private SerializedProperty weapon;

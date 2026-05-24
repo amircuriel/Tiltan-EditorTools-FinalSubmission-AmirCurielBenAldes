@@ -2,6 +2,7 @@ using UnityEditor;
 using UnityEngine;
 
 [CustomEditor(typeof(WeaponDefinition))]
+/// This draws the weapon inspector in a nicer way.
 public class WeaponDefinitionEditor : Editor
 {
     private static readonly Color InvalidSectionColor = new Color(1f, 0.35f, 0.35f, 0.28f);

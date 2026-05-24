@@ -1,6 +1,7 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "New Weapon Definition", menuName = "Weapon Designer/Weapon Definition")]
+/// Just holds the basic weapon data.
 public class WeaponDefinition : ScriptableObject
 {
     public string weaponName = "New Weapon";

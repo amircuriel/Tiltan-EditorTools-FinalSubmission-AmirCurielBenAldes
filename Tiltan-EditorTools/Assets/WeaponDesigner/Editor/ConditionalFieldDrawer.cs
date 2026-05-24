@@ -2,6 +2,7 @@ using UnityEditor;
 using UnityEngine;
 
 [CustomPropertyDrawer(typeof(ConditionalFieldAttribute))]
+/// Hides or shows fields based on the conditional field attribute.
 public class ConditionalFieldDrawer : PropertyDrawer
 {
     public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
